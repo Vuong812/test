@@ -1,0 +1,48 @@
+
+@charset "utf-8";
+body{
+	font-family:Tahoma;
+	width:1000px;
+	margin: 0px auto;
+}
+#header{
+	width:1000px;
+	height:40px;
+}
+#main #left{
+	width:125px;
+	height:900px;
+	float:left;
+	min-height:550px;
+}
+#main #left ul li{
+	list-style-type:none;
+	margin-bottom:12px;
+}	
+#main #center{
+	width:500px;
+	height:900px;
+	background-color:#C93;
+	float:left;
+	min-height:500px;
+	font-size:10.5px;
+}
+#main #right{
+	width:77px;
+	height:900px;
+	min-height:500px;
+	float:left;
+	background-color:#660
+	;
+}
+
+
+
+
+
+
+	
+
+
+/* CSS Document */
+

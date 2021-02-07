@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+#menu ul{
+	background:#0C0;
+	width:200px;
+	heigh:185px;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+#menu ul li{
+	width:200px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #e8e8e8;
+	position:relative;
+}
+#menu ul li a{
+	text-decoration:none;
+	color:black;
+	font:bold;
+}
+#menu ul li:hover{
+	background-color:#e8e8e8;
+}
+#menu .sub_menu{
+	position:absolute;
+	left:200px;
+	top:0PX;
+	display:none;
+	background-color:#3CF;
+}
+#menu .sub_menu li:hover{
+	background:#F60;
+}
+	
+#menu .sub_menu:hover{
+	background-color:#3CF;
+}
+#menu ul li:hover .sub_menu{
+	display:block;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div id="menu">
+<ul>
+ <li><a href="">File</a></li>
+ <li><a href="">Edit</a>
+  <ul class="sub_menu">
+   <li><a href="">Cut</a></li>
+   <li><a href="">Copy</a></li>
+   <li><a href="">Paste</a></li>
+  </ul>
+ </li>
+ <li><a href="">View</a></li>
+ <li><a href="">Insert</a></li>
+ <li><a href="">Format</a></li>
+</ul>
+</div>
+</body>
+</html>

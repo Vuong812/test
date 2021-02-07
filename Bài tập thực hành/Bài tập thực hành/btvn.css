@@ -1,0 +1,16 @@
+@charset "utf-8";  
+*{margin:0px auto; padding:0px; font-size:12px;}
+#sum{width:626px; height:1468px;}
+.header_left{width:313px; height:35px; background:#C00; float:left;}
+.header_right{width:313px; height:35px; background:#C00; float:left; line-height:35px; text-align:right;}
+.banner{width:626px; height:156px; background:#0FC;}
+/*MENU*/
+table tr td{border:1px solid black;}
+.menu{width:626px; height:30px;}
+.menu ul{list-style-type:none; text-align:center; background:#CCC; margin-left:25px;}
+.menu ul li{width:70px; height:30px; line-height:30px; position:relative; float:left;}
+.menu ul li a{text-decoration:none; display:block; font:bold; color:black;}
+.menu ul li a:hover{background:#F33; color:white;}
+#main{width:626px; height:1217px; background:#FC3;}
+.footer{width:626px; height: 30px; background:#666; color:white; text-align:center; line-height:30px;}
+

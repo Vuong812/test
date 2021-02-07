@@ -1,0 +1,54 @@
+@charset "utf-8";
+body{
+	font-family:Tahoma;
+	width:1000px;
+	height:600px;
+	margin:0px auto;
+}
+#header{
+	width:778px;
+	height:55px;
+	float:left;
+}
+ul{
+	list-style-type:none;
+	overflow:inherit;
+	margin:0px;
+	padding:0px;
+}
+a
+{
+	float:left;
+}
+	
+#left{
+	width:255px;
+	height:500px;
+	background-color:#09C;
+	float:left;
+}
+#right{
+	width:523px;
+	float:left;
+}
+table{
+	width:100px;
+	height:350px;
+	margin-left:50px;
+	margin-top:20px;
+}
+input{
+	border:1px solid #333;
+}
+#footer{
+	width:778px;
+	height:35px;
+	background-color:#33C;
+	clear:left;
+	text-align:center;
+	color:White;
+	font-size:14px;
+	line-height:35px;
+}
+	
+
